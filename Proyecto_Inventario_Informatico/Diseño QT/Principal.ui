@@ -1,0 +1,2819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>INVENTARIO</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget{
+background-color: rgb(0, 0, 0);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>700</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideLeft</enum>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>true</bool>
+    </property>
+    <property name="documentMode">
+     <bool>true</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="movable">
+     <bool>false</bool>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string notr="true">Bienvenido</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-20</y>
+        <width>1000</width>
+        <height>700</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../imagenes/Sistema.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_1">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>110</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/PLACA-removebg-preview.png</normaloff>../imagenes/PLACA-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>250</width>
+        <height>150</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>110</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/MEMORIA-removebg-preview.png</normaloff>../imagenes/MEMORIA-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>250</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_3">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>110</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/TARJETA-removebg-preview.png</normaloff>../imagenes/TARJETA-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>250</width>
+        <height>130</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>290</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/PROCESADOR-removebg-preview.png</normaloff>../imagenes/PROCESADOR-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>220</width>
+        <height>250</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_5">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>290</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/DISCO-removebg-preview.png</normaloff>../imagenes/DISCO-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_6">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>290</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/REFRI-removebg-preview.png</normaloff>../imagenes/REFRI-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_7">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>460</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/CASE-removebg-preview.png</normaloff>../imagenes/CASE-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>130</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="boton_categoria_8">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>460</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/PERI-removebg-preview.png</normaloff>../imagenes/PERI-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_PRINCIPAL">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>30</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDialableCharactersOnly|Qt::ImhDigitsOnly|Qt::ImhEmailCharactersOnly|Qt::ImhFormattedNumbersOnly|Qt::ImhLatinOnly|Qt::ImhLowercaseOnly|Qt::ImhUppercaseOnly|Qt::ImhUrlCharactersOnly</set>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/Buscar.jpeg</normaloff>../imagenes/Buscar.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>55</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_PRINCIPAL">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>31</y>
+        <width>561</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+QLineEdit:focus {
+    outline: none;
+    border: 2px solid #6bcbff;
+}
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_PRODUCTOS">
+     <attribute name="title">
+      <string>Productos</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>1000</width>
+        <height>700</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../imagenes/Sistema.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="table_PRODUCTO">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>891</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget {
+    background-color: #F7F7F7;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    gridline-color: #E5E5E5;
+    font-size: 14px;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #E5E5E5;
+    border: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+QTableWidget::item {
+    border-bottom: 1px solid #D5D5D5;
+    padding: 5px;
+}
+
+QTableWidget::item:selected {
+    background-color: #3366FF;
+    color: white;
+}
+</string>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>148</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>COD_PRODUCTO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>NOMBRE</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>DESCRIPCION</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MARCA</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MODELO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>STOCK</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CATEGORIA</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="ButtoN_REFRESCAR">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>600</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #ffd700; /* Fondo amarillo */
+    color: black; /* Color de texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+}
+
+QPushButton:hover {
+    background-color: #ffea00; /* Fondo amarillo al pasar el mouse */
+}
+
+QPushButton:pressed {
+    background-color: #ffcc00; /* Fondo amarillo al presionar el botón */
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>REFRESCAR</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_REPORTE">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>600</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/Decargar.png</normaloff>../imagenes/Decargar.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>600</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #3399FF, stop: 1 #3366FF);
+    border: 2px solid #3366FF;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px 20px;
+    margin: 0;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Reporte&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_BUSCAR">
+     <attribute name="title">
+      <string>Buscar Productos</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-20</y>
+        <width>1000</width>
+        <height>700</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../imagenes/Sistema.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="table_BUSCAR">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>891</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget {
+    background-color: #F7F7F7;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    gridline-color: #E5E5E5;
+    font-size: 14px;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #E5E5E5;
+    border: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+QTableWidget::item {
+    border-bottom: 1px solid #D5D5D5;
+    padding: 5px;
+}
+
+QTableWidget::item:selected {
+    background-color: #3366FF;
+    color: white;
+}
+</string>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>148</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>COD_PRODUCTO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>NOMBRE</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>DESCRIPCION</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MARCA</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MODELO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>STOCK</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CATEGORIA</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>491</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextBrowser {
+    background-color: transparent;
+    border: 1px solid white;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_BUSCAR">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>30</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+QPushButton:hover {
+    background-color: #0062cc;
+    cursor: pointer;
+}
+QPushButton:pressed {
+    background-color: #005cbf;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>BUSCAR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_CODIGO">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;CODIGO:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_BUSCAR">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>30</y>
+        <width>311</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+QLineEdit:focus {
+    outline: none;
+    border: 2px solid #6bcbff;
+}
+</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_BUSCAR">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>30</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>....</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Todos los productos</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Almacenamiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Case</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>memoria ram</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Periféricos</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>placa madre</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>procesadores</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Refrigeración</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tarjeta de video</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_BUSCAR">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>70</y>
+        <width>291</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #FF0000;
+    font-family: Arial; /* Fuente de la letra */
+    font-size: 16px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    text-align: center; /* Alineación del texto */
+    text-shadow: 1px 1px 1px #CCCCCC; /* Sombra del texto */
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="check_MN">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>80</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox {
+    background-color: #FFFFFF; /* fondo blanco */
+    color: #333333; /* color de texto */
+    padding: 5px; /* espacio interno */
+    border-radius: 5px; /* esquinas redondeadas */
+    border: 2px solid #CCCCCC; /* borde gris */
+}
+
+QCheckBox:hover {
+    background-color: #EEEEEE; /* fondo gris claro al pasar el mouse */
+}
+
+QCheckBox:checked {
+    background-color: #3399FF; /* fondo azul al estar seleccionado */
+    color: #FFFFFF; /* texto blanco */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Mayor a Menor</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="check_NM">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>80</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox {
+    background-color: #FFFFFF; /* fondo blanco */
+    color: #333333; /* color de texto */
+    padding: 5px; /* espacio interno */
+    border-radius: 5px; /* esquinas redondeadas */
+    border: 2px solid #CCCCCC; /* borde gris */
+}
+
+QCheckBox:hover {
+    background-color: #EEEEEE; /* fondo gris claro al pasar el mouse */
+}
+
+QCheckBox:checked {
+    background-color: #3399FF; /* fondo azul al estar seleccionado */
+    color: #FFFFFF; /* texto blanco */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Menor a Mayor</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_AGREGAR">
+     <attribute name="title">
+      <string>Agregar Nuevos Productos</string>
+     </attribute>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-20</y>
+        <width>1000</width>
+        <height>700</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../imagenes/Sistema.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>200</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(64, 64, 64, 0.5); /* Fondo plomo suave pero más oscuro del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(64, 64, 64, 0.7); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;MARCA:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="line_COD">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>80</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="line_DESCR">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>440</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:10px;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(212, 212, 212);
+</string>
+      </property>
+      <property name="maxLength">
+       <number>32768</number>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="line_CATE">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>380</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:10px;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(212, 212, 212);
+</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="line_MODELO">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>260</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="line_STOCK">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>320</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>80</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(64, 64, 64, 0.5); /* Fondo plomo suave pero más oscuro del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(64, 64, 64, 0.7); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;COD_PRODUCTO:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="line_NOMBRE">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>140</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>440</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(64, 64, 64, 0.5); /* Fondo plomo suave pero más oscuro del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(64, 64, 64, 0.7); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;DESCRIPCION:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>320</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(64, 64, 64, 0.5); /* Fondo plomo suave pero más oscuro del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(64, 64, 64, 0.7); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;STOCK:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>140</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(64, 64, 64, 0.5); /* Fondo plomo suave pero más oscuro del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(64, 64, 64, 0.7); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;NOMBRE:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="line_MARCA">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>200</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>260</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(64, 64, 64, 0.5); /* Fondo plomo suave pero más oscuro del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(64, 64, 64, 0.7); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;MODELO:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>380</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(64, 64, 64, 0.5); /* Fondo plomo suave pero más oscuro del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(64, 64, 64, 0.7); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;CATEGORIA:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>50</y>
+        <width>691</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextBrowser {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    border: 2px solid #00aaff; /* Borde azul */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #000000; /* Color de texto */
+}
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_AGREGAR">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>550</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #ffd700; /* Fondo amarillo */
+    color: black; /* Color de texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+}
+
+QPushButton:hover {
+    background-color: #ffea00; /* Fondo amarillo al pasar el mouse */
+}
+
+QPushButton:pressed {
+    background-color: #ffcc00; /* Fondo amarillo al presionar el botón */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>AGREGAR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_AGREGAR">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>550</y>
+        <width>411</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: rgb(252, 255, 39);
+    font-family: Arial; /* Fuente de la letra */
+    font-size: 16px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    text-align: center; /* Alineación del texto */
+    text-shadow: 1px 1px 1px #CCCCCC; /* Sombra del texto */
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>380</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>....</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Almacenamiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Case</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>memoria ram</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Periféricos</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>placa madre</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>procesadores</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Refrigeración</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tarjeta de video</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>440</y>
+        <width>351</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPlainTextEdit{
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QPlainTextEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QPlainTextEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QPlainTextEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QPlainTextEdit::hover::placeholder,
+QPlainTextEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}
+</string>
+      </property>
+     </widget>
+     <zorder>line_CATE</zorder>
+     <zorder>label_4</zorder>
+     <zorder>textBrowser</zorder>
+     <zorder>label_9</zorder>
+     <zorder>line_DESCR</zorder>
+     <zorder>label_10</zorder>
+     <zorder>label_11</zorder>
+     <zorder>label_12</zorder>
+     <zorder>label_13</zorder>
+     <zorder>label_14</zorder>
+     <zorder>label_15</zorder>
+     <zorder>Button_AGREGAR</zorder>
+     <zorder>label_AGREGAR</zorder>
+     <zorder>plainTextEdit</zorder>
+     <zorder>line_COD</zorder>
+     <zorder>line_MARCA</zorder>
+     <zorder>line_NOMBRE</zorder>
+     <zorder>line_MODELO</zorder>
+     <zorder>comboBox</zorder>
+     <zorder>line_STOCK</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_ACTUALIZAR">
+     <attribute name="title">
+      <string>Actualizar Inventario</string>
+     </attribute>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-20</y>
+        <width>1000</width>
+        <height>700</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../imagenes/Sistema.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>941</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextBrowser {
+    background-color: transparent;
+    border: 1px solid white;
+}</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="table_ACTUALIZAR">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>150</y>
+        <width>901</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableWidget {
+    background-color: #F7F7F7;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    gridline-color: #E5E5E5;
+    font-size: 14px;
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #E5E5E5;
+    border: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+QTableWidget::item {
+    border-bottom: 1px solid #D5D5D5;
+    padding: 5px;
+}
+
+QTableWidget::item:selected {
+    background-color: #3366FF;
+    color: white;
+}
+</string>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>148</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>COD_PRODUCTO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>NOMBRE</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>DESCRIPCION</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MARCA</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MODELO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>STOCK</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CATEGORIA</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QComboBox" name="comboBox_ACTUALIZAR">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>470</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>....</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>COD_PRODUCTO</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NOMBRE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DESCRIPCION</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MARCA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>MODELO</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>STOCK</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CATEGORIA</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_BACTUALIZAR">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>100</y>
+        <width>321</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_CODIGO_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>50</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;CODIGO:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ACTUALIZAR">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>100</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del QLabel */
+    border: 2px solid #00aaff; /* Borde azul del QLabel */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    color: #ffffff; /* Color del texto en blanco */
+    text-align: center; /* Texto centrado */
+}
+
+QLabel:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo del QLabel al pasar el mouse */
+}
+
+QLabel::selection {
+    background-color: #00aaff; /* Fondo del QLabel al seleccionar el texto */
+    color: #ffffff; /* Color del texto al seleccionar el texto */
+}
+</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDialableCharactersOnly|Qt::ImhDigitsOnly|Qt::ImhEmailCharactersOnly|Qt::ImhFormattedNumbersOnly|Qt::ImhLatinOnly|Qt::ImhLowercaseOnly|Qt::ImhUppercaseOnly|Qt::ImhUrlCharactersOnly</set>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/Buscar.jpeg</normaloff>../imagenes/Buscar.jpeg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>55</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ACTUALIZAR">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>100</y>
+        <width>311</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #FF0000;
+    font-family: Arial; /* Fuente de la letra */
+    font-size: 16px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    text-align: center; /* Alineación del texto */
+    text-shadow: 1px 1px 1px #CCCCCC; /* Sombra del texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_AGREGAR_2">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>520</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#actualizarButton {
+    background-color: #008CBA;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+QPushButton#actualizarButton:hover {
+    background-color: #00A0D2;
+    border: 2px solid #00A0D2;
+}
+
+QPushButton#actualizarButton:pressed {
+    background-color: #005F79;
+    border: 2px solid #005F79;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Actualizar</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_ACTUALIZAR">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>470</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    background-color: #f7f7f7; /* Fondo del QLineEdit */
+    border: 1px solid #d0d0d0; /* Borde del QLineEdit */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 2px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333333; /* Color del texto */
+}
+
+QLineEdit:hover {
+    background-color: #ebebeb; /* Fondo del QLineEdit al pasar el mouse */
+}
+
+QLineEdit:focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco */
+    border: 1px solid #4da8da; /* Borde del QLineEdit al tener el foco */
+}
+
+QLineEdit::placeholder {
+    color: #999999; /* Color del texto de marcador de posición */
+}
+
+QLineEdit::hover::placeholder,
+QLineEdit::focus::placeholder {
+    color: #666666; /* Color del texto de marcador de posición al pasar el mouse o tener el foco */
+}
+
+QLineEdit::hover::focus {
+    background-color: #ffffff; /* Fondo del QLineEdit al tener el foco y pasar el mouse */
+}</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ACTUALIZAR_2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>520</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #FF0000;
+    font-family: Arial; /* Fuente de la letra */
+    font-size: 16px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    text-align: center; /* Alineación del texto */
+    text-shadow: 1px 1px 1px #CCCCCC; /* Sombra del texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ButtoN_REFRESCAR_2">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>60</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #ffd700; /* Fondo amarillo */
+    color: black; /* Color de texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 10px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+}
+
+QPushButton:hover {
+    background-color: #ffea00; /* Fondo amarillo al pasar el mouse */
+}
+
+QPushButton:pressed {
+    background-color: #ffcc00; /* Fondo amarillo al presionar el botón */
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>REFRESCAR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ACTUALIZAR_3">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>420</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #FF0000;
+    font-family: Arial; /* Fuente de la letra */
+    font-size: 16px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    text-align: center; /* Alineación del texto */
+    text-shadow: 1px 1px 1px #CCCCCC; /* Sombra del texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ACTUALIZAR_4">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>520</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #FF0000;
+    font-family: Arial; /* Fuente de la letra */
+    font-size: 16px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    text-align: center; /* Alineación del texto */
+    text-shadow: 1px 1px 1px #CCCCCC; /* Sombra del texto */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_ELIMINAR_2">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>580</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #ff4444;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+
+QPushButton:hover {
+    background-color: #ff6666;
+}
+
+QPushButton:pressed {
+    background-color: #cc3333;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>ELIMINAR</string>
+      </property>
+     </widget>
+     <zorder>label_5</zorder>
+     <zorder>textBrowser_2</zorder>
+     <zorder>table_ACTUALIZAR</zorder>
+     <zorder>comboBox_ACTUALIZAR</zorder>
+     <zorder>lineEdit_BACTUALIZAR</zorder>
+     <zorder>label_CODIGO_2</zorder>
+     <zorder>label_ACTUALIZAR</zorder>
+     <zorder>Button_AGREGAR_2</zorder>
+     <zorder>lineEdit_ACTUALIZAR</zorder>
+     <zorder>label_ACTUALIZAR_2</zorder>
+     <zorder>ButtoN_REFRESCAR_2</zorder>
+     <zorder>label_ACTUALIZAR_3</zorder>
+     <zorder>label_ACTUALIZAR_4</zorder>
+     <zorder>Button_ELIMINAR_2</zorder>
+     <zorder>pushButton_ACTUALIZAR</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_INFORME">
+     <attribute name="title">
+      <string>Generar Informe</string>
+     </attribute>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-20</y>
+        <width>1000</width>
+        <height>700</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../imagenes/Sistema.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_informe">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>110</y>
+        <width>671</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_tabla">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>30</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#actualizarButton {
+    background-color: #008CBA;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+QPushButton#actualizarButton:hover {
+    background-color: #00A0D2;
+    border: 2px solid #00A0D2;
+}
+
+QPushButton#actualizarButton:pressed {
+    background-color: #005F79;
+    border: 2px solid #005F79;
+}</string>
+      </property>
+      <property name="text">
+       <string>Tabla</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_informe">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>30</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#actualizarButton {
+    background-color: #008CBA;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+QPushButton#actualizarButton:hover {
+    background-color: #00A0D2;
+    border: 2px solid #00A0D2;
+}
+
+QPushButton#actualizarButton:pressed {
+    background-color: #005F79;
+    border: 2px solid #005F79;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Grafico</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button_des">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>110</y>
+        <width>81</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../imagenes/Informe.png</normaloff>../imagenes/Informe.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>100</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Button_SALIR">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>0</y>
+      <width>131</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #FF5722, stop: 1 #E64A19);
+    border: 2xp solid #E64A19;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px 18px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+QPushButton:hover {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #E64A19, stop: 1 #FF5722);
+    cursor: pointer;
+}
+QPushButton:pressed {
+    background-color: #E64A19;
+    border: 2px solid #FF5722;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Cerrar Seccion</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
